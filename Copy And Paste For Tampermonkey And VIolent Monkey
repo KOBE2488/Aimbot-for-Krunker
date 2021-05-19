@@ -38,7 +38,7 @@ var msgpack5 = msgpack;
   var current10 = 0;
   var pending;
 
-    var START_ATTACK =  msgpack5.encode(["i",[[1142,16,"f",-1,1,0,0,0,0,0,16,"f",-1,"f"]]]);
+    var START_ATTACK =  msgpack5.(["i",[[1142,16,"f",-1,1,0,0,0,0,0,16,"f",-1,"f"]]]);
     var END_ATTACK = [146, 161, 105, 145, 158, 205, 5, 53, 18, 161, 102, 255, 161, 102, 15, 161, 102, 255, 0, 0, 0, 0, 0, 0];
 
   window.WebSocket.prototype.oldSend = WebSocket.prototype.send;
